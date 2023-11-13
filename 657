@@ -1,3 +1,23 @@
+  С
+
 a = list(set(map(int, input().split()))  set(map(int, input().split())))
 a.sort()
 print(*a)
+
+
+F
+
+
+text = input()
+
+
+words = text.split()
+
+unique_words = set()
+
+for word in words:
+    unique_words.add(word)
+
+print(len(unique_words))
+
+
